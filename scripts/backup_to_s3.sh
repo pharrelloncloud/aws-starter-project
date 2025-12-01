@@ -3,7 +3,7 @@
 
 WEB_DIR="/var/www/html"
 
-BUCKET_NAME="aws-backup-bucket"
+BUCKET_NAME="pharrelloncloud-backup"
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 
 BACKUP_FILE="/tmp/site_backup_$TIMESTAMP.tar.gz"
