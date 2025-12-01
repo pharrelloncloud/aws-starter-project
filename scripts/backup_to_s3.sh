@@ -3,7 +3,7 @@
 
 WEB_DIR="/var/www/html"
 
-BUCKET_NAME="my-s3-backup-bucket"
+BUCKET_NAME="aws-backup-bucket"
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 
 BACKUP_FILE="/tmp/site_backup_$TIMESTAMP.tar.gz"
